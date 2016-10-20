@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="buenos_dias">Cia Devs,Boun Giorno</string>
+    <string name="nombreuser">Nome: %s</string>
+    <string name="saludo">Ciao Mondo</string>
+    <string name="segunda_vista">"Secunda "</string>
+    <string name="pass">Toggle %2$b, Password %1$s</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="saludo">Nuestro primer hola mundo</string>
+    <string name="buenos_dias">Hola Desarrolladores!\nBuenos dias</string>
+    <string name="segunda_vista">Segunda Vista</string>
+    <string name="nombreuser">Nombre: %s</string>
+    <string name="pass">Password: %1$s, Toggle %2$b</string>
+</resources>
