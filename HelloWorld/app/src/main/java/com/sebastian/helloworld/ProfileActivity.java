@@ -28,10 +28,13 @@ public class ProfileActivity extends AppCompatActivity {
 
         Bundle bundle = getIntent().getExtras();
 
-        Log.d(TAG, "onResume: " + bundle.toString());
         Log.i(TAG, "onResume: " + bundle.getString("nombre"));
         Log.w(TAG, "onResume: " + bundle.getString("mail"));
         Log.wtf(TAG, "algo!");
+
+        Log.v(TAG, "algo!");
+
+        Log.e(TAG, "onResume: "+bundle.toString());
 
         txtNombre.setText(getString(R.string.nombreuser, bundle.getString("nombre")));
         txtEdad.setText("Edad: " + bundle.getString("edad"));
