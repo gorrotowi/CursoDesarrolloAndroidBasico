@@ -37,6 +37,10 @@ public class MainActivity extends AppCompatActivity {
 
         dbController = new DBController(this);
 
+        dbController.open();
+        showData();
+        dbController.close();
+
     }
 
     @Override
@@ -80,10 +84,14 @@ public class MainActivity extends AppCompatActivity {
         if (cursor != null) {
             if (cursor.moveToFirst()) {
                 do {
-                    int id = cursor.getInt(0);
-                    String nombre = cursor.getString(1);
-                    int edad = cursor.getInt(2);
-                    String direccion = cursor.getString(3);
+                    int idIdx = cursor.getColumnIndex(DBHelper.ID);
+                    int nameIdx = cursor.getColumnIndex("nombre");
+                    int edadIdx = cursor.getColumnIndex("edad");
+                    int direccionIdx = cursor.getColumnIndex("domicilio");
+                    int id = cursor.getInt(idIdx);
+                    String nombre = cursor.getString(nameIdx);
+                    int edad = cursor.getInt(edadIdx);
+                    String direccion = cursor.getString(direccionIdx);
                     txtViewDB.append("Nombre: " + nombre +
                             " Direccion: " + direccion +
                             " Edad: " + edad +
