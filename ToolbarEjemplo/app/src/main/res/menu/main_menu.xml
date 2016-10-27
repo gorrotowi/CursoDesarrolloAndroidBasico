@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/opcion1"
+        android:title="Opcion 1"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_launcher">
+    </item>
+
+    <item
+        android:id="@+id/opcion2"
+        android:title="Opcion 2"
+        app:showAsAction="ifRoom|withText"
+        android:icon="@mipmap/ic_launcher">
+    </item>
+
+    <item
+        android:id="@+id/opcion3"
+        android:title="Opcion 3"
+        app:showAsAction="collapseActionView">
+
+        <menu>
+
+            <item
+                android:id="@+id/opcion31"
+                android:title="Opcion tres uno"
+                app:showAsAction="ifRoom|withText"
+                android:icon="@mipmap/ic_launcher">
+            </item>
+
+            <item
+                android:id="@+id/opcion32"
+                android:title="Opcion tres dos"
+                app:showAsAction="ifRoom|withText"
+                android:icon="@mipmap/ic_launcher">
+            </item>
+
+            <item
+                android:id="@+id/opcion33"
+                android:title="Opcion tres tres"
+                app:showAsAction="ifRoom|withText"
+                android:icon="@mipmap/ic_launcher">
+            </item>
+
+        </menu>
+
+    </item>
+
+</menu>
