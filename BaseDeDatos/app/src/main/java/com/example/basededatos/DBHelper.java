@@ -12,10 +12,10 @@ public class DBHelper extends SQLiteOpenHelper {
 
     public static final String TABLE_NAME = "CursoAndroid";
     static final String DBNAME = "CursoAndroidDB.db";
-    static final int VERSIONDB = 1;
+    private static final int VERSIONDB = 1;
     public static String ID = "id";
 
-    String sqliteCreate = "CREATE TABLE " + TABLE_NAME + " ( " +
+    private String sqliteCreate = "CREATE TABLE " + TABLE_NAME + " ( " +
             ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
             "nombre TEXT, " +
             "edad INTEGER, " +
