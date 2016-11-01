@@ -3,4 +3,6 @@
     <string name="escribe_lo_que_quieras_guardar">Escribe lo que quieras guardar...</string>
     <string name="guardar">Guardar</string>
     <string name="recuperar">Recuperar</string>
+    <string name="recuperar_SD">Recuperar de SD</string>
+    <string name="guardar_SD">Guardar en SD</string>
 </resources>

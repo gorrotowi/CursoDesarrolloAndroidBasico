@@ -30,6 +30,18 @@
         android:layout_height="wrap_content"
         android:text="@string/recuperar" />
 
+    <Button
+        android:id="@+id/btnGuardarSD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guardar_SD" />
+
+    <Button
+        android:id="@+id/btnRecuperarSD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recuperar_SD" />
+
     <TextView
         android:id="@+id/txtRecuperado"
         android:layout_width="wrap_content"
